@@ -8,16 +8,13 @@ const Hero = () => {
   return (
     <Wrapper className="section-center">
       <article className="content">
-        <h1>
-          Design your <br></br>comfort zone!
-        </h1>
+        <h1>The Furnurture Store</h1>
         <p>
           Buy Exclusive products from world's trusted brand{" "}
-          <em>The FurNurture Store</em>
+          <em>The FurNurture Store </em>
           online at your fingertips. Grab amazing discount and save upto 50% on
           all products.
           <br />
-          <hr />
         </p>
         <Link to="/products" className="hero-btn btn">
           shop now
@@ -44,7 +41,7 @@ const Wrapper = styled.section`
     max-width: 45em;
     margin-bottom: 2rem;
     color: var(--clr-grey-5);
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   @media (min-width: 992px) {
     height: calc(100vh - 5rem);

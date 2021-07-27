@@ -49,6 +49,7 @@ const Wrapper = styled.section`
   p {
     margin-bottom: 0;
     line-height: 1.8;
+    font-size: 1.1rem;
     color: var(--clr-primary-3);
   }
   .services-center {

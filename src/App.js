@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Sidebar, Footer } from "./components";
 // import Nav from "./components/Navbar";
@@ -15,9 +15,6 @@ import {
   AuthWrapper,
 } from "./pages";
 function App() {
-  useEffect(() => {
-    document.title = "The FurNurture Store";
-  }, []);
   return (
     <AuthWrapper>
       <Router>

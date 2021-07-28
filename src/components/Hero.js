@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <Wrapper className="section-center">
       <article className="content">
-        <h1>The Furnurture Store</h1>
+        <h1>The FurNurture Store</h1>
         <p>
           Buy Exclusive products from world's trusted brand{" "}
           <em>The FurNurture Store </em>
